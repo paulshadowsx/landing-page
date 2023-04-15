@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 534px;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-header {
+    width: 1030px;
+    padding-top: 15px;
+    padding-bottom: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    align-self: center;
+    flex-shrink: 0;
+}
+
+.links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 26px;
+    flex-shrink: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-container {
+    width: 1030px;
+    padding-bottom: 132px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.hero-item {
+    height: 240px;
+    width: 450px;
+    flex-shrink: 0;
+}
+
+.hero-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-text {
+    padding-bottom: 10px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-button {
+    padding: 5px 30px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero-placeholder {
+    height: 240px;
+    width: 525px;
+    background-color: #6d747d;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
