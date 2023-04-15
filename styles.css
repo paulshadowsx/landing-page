@@ -139,3 +139,35 @@ a {
     color: #1F2937;
     text-align: center;
 }
+
+/* Quote Section */
+
+.quote-section {
+    height: 428px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-container {
+    height: 187px;
+    width: 787px;
+    padding: 137px 307px 107px 345px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;;
+}
+
+.quote-author {
+    padding-right: 27px;
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
