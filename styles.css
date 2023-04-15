@@ -218,3 +218,15 @@ a {
     border: solid #F9FAF8 2px;
     border-radius: 8px;
 }
+
+/* Footer */
+
+.footer {
+    height: 99px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
