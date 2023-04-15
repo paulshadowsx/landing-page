@@ -93,3 +93,49 @@ a {
     align-items: center;
     flex-shrink: 0;
 }
+
+/* Information Section */
+
+.information-section {
+    height: 497px;
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.container {
+    padding-bottom: 125px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 48px;
+}
+
+.item {
+    max-width: 167px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box {
+    height: 159px;
+    width: 159px;
+    border: solid #3882F6 4px;
+    border-radius: 14px;
+}
+
+.text {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+}
